@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="CSS/myCSS.css">
+  </head>
+  <body id="bodGamePage">
+    <div id="welcome">
+        <form action="/logout?_method=DELETE" method="POST">
+            <button id="logO" type="submit">Log Out</button>
+        </form>
+        <h1>Welcome <%=name%>!</h1>
+        <h1 id="ticTack">Tic Tac Toe</h1>
+    </div>
+    <div id="board">
+      <table id="table1">
+        <tr>
+          <td><button id="0" class="ttt"></button></td>
+          <td><button id="1" class="ttt"></button></td>
+          <td><button id="2" class="ttt"></button></td>
+        </tr>
+        <tr>
+          <td><button id="3" class="ttt"></button></td>
+          <td><button id="4" class="ttt"></button></td>
+          <td><button id="5" class="ttt"></button></td>
+        </tr>
+        <tr>
+          <td><button id="6" class="ttt"></button></td>
+          <td><button id="7" class="ttt"></button></td>
+          <td><button id="8" class="ttt"></button></td>
+        </tr>
+      </table>
+    </div>
+    <script src="JS/myJS.js"></script>
+  </body>
+</html>
+
+
+    
+
